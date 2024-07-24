@@ -109,7 +109,6 @@ const Portfolio =()=>{
                     <h5 className="card-title mt-3 text-capitalize">Event photography</h5>
                     <p className="card-text mt-2 mb-3 text-start">Event photography captures the essence and energy of special occasions, from weddings and corporate events to birthday parties and concerts. Our skilled photographers document every memorable moment, ensuring you can relive the experience through high-quality images.</p>
                     <div className="text-lg-start">
-                 {/*     <button onClick={scrollToBottom} className="text-capitalize btn btn-primary scroll-button">get Service</button>*/}
                     </div>
                   </div>
                 </div>
@@ -125,7 +124,6 @@ const Portfolio =()=>{
                     <h5 className="card-title mt-3 text-capitalize">portrait photography</h5>
                     <p className="card-text mt-2 mb-3 text-capitalize text-start ">Portrait photography captures the essence, personality, and emotions of individuals or groups. It goes beyond just taking pictures, creating visual stories that highlight the unique qualities of each person. Whether it’s professional headshots, family portraits, or creative shoots, our sessions bring out the best in everyone.</p>
                     <div className="text-lg-start">
-            {/*          <button onClick={scrollToBottom} className="text-capitalize btn btn-primary scroll-button">get Service</button>*/}
                     </div>
                   </div>
                 </div>
@@ -141,8 +139,6 @@ const Portfolio =()=>{
                     <h5 className="card-title mt-3 text-capitalize">Videography </h5>
                     <p className="card-text mt-2 mb-3 text-capitalize text-start ">Videography brings your special moments to life through dynamic and engaging visuals. From weddings and corporate events to promotional videos and personal projects, our expert videographers capture the essence of your story with precision and creativity.</p>
                     <div className="text-lg-start">
-                {/*      <button onClick={scrollToBottom} className="text-capitalize btn btn-primary scroll-button">get Service</button>*/}
-                    </div>
                   </div>
                 </div>
               </div>
