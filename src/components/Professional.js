@@ -20,7 +20,7 @@ const Professional =()=>{
 </div> 
         </section>
         </>
-    )
+    );
 
-}
+};
 export default Professional;
