@@ -26,7 +26,7 @@ const images = [
 const Portfolio =()=>{
   return(
     <>
-     <section> 
+    
 <div className="container row-width">          
 <h1 className="common-text fs-1 fw-normal">Portfolio</h1>
           <hr className='w-50 mx-auto' />
@@ -92,7 +92,7 @@ const Portfolio =()=>{
                 <hr className='w-50 mx-auto row-width' />
    <SlidingComponent2 images={images} />
     </div>
-      </section>
+      
           <section className="service-section row-width">
         <div className="text-center">
           <h1 className="common-text fs-2 row-width">Combination of Art & Skill</h1>
