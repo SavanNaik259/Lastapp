@@ -26,7 +26,7 @@ const images = [
 const Portfolio =()=>{
   return(
     <>
-      
+     <section> 
 <div className="container row-width">          
 <h1 className="common-text fs-1 fw-normal">Portfolio</h1>
           <hr className='w-50 mx-auto' />
