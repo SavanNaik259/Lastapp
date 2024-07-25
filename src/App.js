@@ -1,18 +1,18 @@
-import React, { Suspense, lazy } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SeoManager from './components/SeoManager';
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { allStatesKeywords, generalKeywords, serviceSpecificKeywords } from './keywords';
 
-const Navbar = lazy(() => import('./components/Navbar'));
-const Home = lazy(() => import('./components/Home'));
-const Portfolio = lazy(() => import('./components/Portfolio'));
-const Services = lazy(() => import('./components/Services'));
-const Professional = lazy(() => import('./components/Professional'));
-const About = lazy(() => import('./components/About'));
-const Contact = lazy(() => import('./components/Contact'));
-const Footer = lazy(() => import('./components/Footer'));
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Portfolio from './components/Portfolio';
+import Services from './components/Services';
+import Professional from './components/Professional';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const combinedKeywords = [
   ...Object.values(allStatesKeywords).flat(),
@@ -21,8 +21,9 @@ const combinedKeywords = [
 ];
 
 const App = () => {
+  console.log('App rendered');
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={
@@ -91,7 +92,7 @@ const App = () => {
           </>
         } />
       </Routes>
-    </Suspense>
+    </Router>
   );
 };
 
