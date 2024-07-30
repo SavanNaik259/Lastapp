@@ -8,7 +8,7 @@ const SeoManager = ({ page, keywords, title, description }) => {
     description: description || "Welcome to our wedding photography website. Explore our portfolio and services.",
     keywords: keywords.join(", "),
     image: "/static/Images/IMG_20240706_143509.jpg",
-    url: "https://www.yourwebsite.com",
+    url: "https://clickphoto2.netlify.app/",
     type: "WebSite",
     businessName: "Wedding Photography",
     streetAddress: "Karwar Mallapur",
