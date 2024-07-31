@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /private/
+Allow: /
+Sitemap: https://clickphoto2.netlify.app/sitemap.xml
