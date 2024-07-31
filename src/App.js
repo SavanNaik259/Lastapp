@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SeoManager from './components/SeoManager';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { generalKeywords, serviceSpecificKeywords } from './keywords';
+import { generalKeywords } from './keywords';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -53,7 +53,7 @@ const App = () => {
           <>
             <SeoManager
               page="services"
-              keywords={serviceSpecificKeywords}
+              keywords={generalKeywords}
               title="Services - Wedding Photography Services"
               description="Learn more about the wedding photography services we offer, including pre-wedding, post-wedding, and destination shoots."
             />
